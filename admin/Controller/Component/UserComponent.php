@@ -5,9 +5,14 @@ App::import('Model', 'User');
 
 class UserComponent extends Component {
 
+    protected $userModel;
+
+    public function __construct() {
+        $this->userModel = new User();
+    }
+
     public function auth($input) {
-        $model = new User();
-        $user = $model->findByUsernameAndPassword($input['email'], $input['password']);
+        $user = $this->userModel->findByUsernameAndPassword($input['email'], $input['password']);
         return $user;
     }
 }

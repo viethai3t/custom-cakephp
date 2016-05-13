@@ -5500,3 +5500,103 @@ Stack Trace:
 #3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-05-13 10:00:15 Error: Fatal Error (1): Call to undefined method ComponentCollection::findByUsernameAndPassword() in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 15]
+2016-05-13 10:00:15 Error: [FatalErrorException] Call to undefined method ComponentCollection::findByUsernameAndPassword()
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 15, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 15, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-13 10:04:39 Error: [PDOException] SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "validationErrors"
+LINE 1: validationErrors
+        ^
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('validationError...', Array)
+#2 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('validationError...', Array, Array)
+#3 /var/www/html/cakephp/lib/Cake/Model/Datasource/DboSource.php(607): DboSource->fetchAll('validationError...', Array, Array)
+#4 /var/www/html/cakephp/lib/Cake/Model/Model.php(827): DboSource->query('validationError...', Array, Object(User))
+#5 /var/www/html/cakephp/admin/Controller/UsersController.php(16): Model->__call('validationError...', Array)
+#6 /var/www/html/cakephp/admin/Controller/UsersController.php(16): User->validationErrors()
+#7 [internal function]: UsersController->login()
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-13 10:05:48 Error: Fatal Error (1): Call to undefined method ComponentCollection::findByUsernameAndPassword() in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 15]
+2016-05-13 10:05:48 Error: [FatalErrorException] Call to undefined method ComponentCollection::findByUsernameAndPassword()
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 15, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 15, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-13 10:58:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [xdebug://debug-eval, line 1]
+2016-05-13 10:58:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-13 11:02:42 Error: [MissingActionException] Action UsersController::l() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'l',
+)
+Request URL: /users/l
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-13 11:02:44 Error: [MissingActionException] Action UsersController::l() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'l',
+)
+Request URL: /users/l
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-13 11:08:20 Error: Fatal Error (4): syntax error, unexpected => (T_DOUBLE_ARROW) in [xdebug://debug-eval, line 1]
+2016-05-13 11:08:20 Error: [FatalErrorException] syntax error, unexpected => (T_DOUBLE_ARROW)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-13 11:37:25 Error: Fatal Error (4): syntax error, unexpected => (T_DOUBLE_ARROW) in [xdebug://debug-eval, line 1]
+2016-05-13 11:37:25 Error: [FatalErrorException] syntax error, unexpected => (T_DOUBLE_ARROW)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-13 14:51:15 Error: Fatal Error (1): Call to undefined function http_redirect() in [xdebug://debug-eval(1) : eval()'d code, line 2]
+2016-05-13 14:51:15 Error: [FatalErrorException] Call to undefined function http_redirect()
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'xdebug://debug-...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'xdebug://debug-...', 2, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'xdebug://debug-...', 2, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

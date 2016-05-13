@@ -6,17 +6,22 @@ class User extends AppModel {
         'email' => array(
             'required' => array(
                 'required' => true,
-                'message' => 'email is required'
+                'message' => 'Please enter your email'
             ),
             'data_type' => array(
                 'rule' => 'email',
-                'message' => 'valid email is required'
+                'message' => 'Please enter an valid email'
             ),
-            'length' => array('lengthBetween', 5, 15),
         ),
         'password' => array(
-            'required' => true,
-            'message' => ''
+            'required' => array(
+                'required' => true,
+                'message' => 'Please enter your password'
+            ),
+            'length' => array(
+                'rule' => array('minLength', 8),
+                'message' => 'length of password must be at least 8 chars'
+            )
         )
     );
 

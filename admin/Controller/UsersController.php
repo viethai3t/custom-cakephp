@@ -3,18 +3,26 @@
 class UsersController extends AppController {
 
 	public $components = array(
-		'Flash',
+		'Session',
 		'UserComponent' => array('className' => 'User')
 	);
 	public $helpers = array('Html', 'Form');
 
 	public function index() {
-		var_dump($this->User->find('all'));
 		$this->render('login');
 	}
 
 	public function login() {
+
+		$valid = $this->User->validates();
+		if ($valid) {
+
+		} else {
+			$errors = $this->User->validationErrors;
+		}
 		$input = $this->request->data;
 		$user = $this->UserComponent->auth($input['User']);
+		if (!empty($user)) {
+		}
 	}
 }
