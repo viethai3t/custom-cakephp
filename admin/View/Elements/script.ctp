@@ -19,5 +19,3 @@ echo $this->Html->script('/js/jquery.autogrow-textarea.js');
 echo $this->Html->script('/js/jquery.uploadify-3.1.min.js');
 echo $this->Html->script('/js/jquery.history.js');
 echo $this->Html->script('/js/charisma.js');
-
-?>

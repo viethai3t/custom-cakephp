@@ -15,5 +15,3 @@ echo $this->Html->css('/css/jquery.iphone.toggle.css');
 echo $this->Html->css('/css/uploadify.css');
 echo $this->Html->css('/css/animate.min.css');
 echo $this->Html->css('/custom/css/style.css');
-
-?>
