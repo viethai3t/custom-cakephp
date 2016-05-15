@@ -1,6 +1,6 @@
 <?php
 
-class User extends AppModel {
+class Admin extends AppModel {
 
     public $validate = array(
         'email' => array(

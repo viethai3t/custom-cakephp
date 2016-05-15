@@ -4,7 +4,7 @@ class AdminsController extends AppController {
 
 	public $components = array(
 		'Session',
-		'UserComponent' => array('className' => 'User')
+		'adminComponent' => array('className' => 'Admin')
 	);
 	public $helpers = array('Html', 'Form');
 
@@ -14,15 +14,16 @@ class AdminsController extends AppController {
 
 	public function login() {
 
-		$valid = $this->User->validates();
+
+		$valid = $this->Admin->validates();
 		if ($valid) {
 
 		} else {
-			$errors = $this->User->validationErrors;
+			$errors = $this->Admin->validationErrors;
 		}
 		$input = $this->request->data;
-		$user = $this->UserComponent->auth($input['User']);
-		if (!empty($user)) {
+		$admin = $this->adminComponent->auth($input['Admin']);
+		if (!empty($admin)) {
 		}
 	}
 }

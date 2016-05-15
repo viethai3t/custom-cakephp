@@ -1,15 +1,19 @@
-<link href="css/bootstrap-cerulean.min.css" rel="stylesheet">
-<link href="css/charisma-app.css" rel="stylesheet">
-<link href="bower_components/fullcalendar/dist/fullcalendar.css" rel="stylesheet">
-<link href="bower_components/fullcalendar/dist/fullcalendar.print.css" rel="stylesheet" media="print">
-<link href="bower_components/chosen/chosen.min.css" rel="stylesheet">
-<link href="bower_components/colorbox/example3/colorbox.css" rel="stylesheet">
-<link href="bower_components/responsive-tables/responsive-tables.css" rel="stylesheet">
-<link href="css/jquery.noty.css" rel="stylesheet">
-<link href="css/noty_theme_default.css" rel="stylesheet">
-<link href="css/elfinder.min.css" rel="stylesheet">
-<link href="css/elfinder.theme.css" rel="stylesheet">
-<link href="css/jquery.iphone.toggle.css" rel="stylesheet">
-<link href="css/uploadify.css" rel="stylesheet">
-<link href="css/animate.min.css" rel="stylesheet">
-<link href="custom/css/style.css" rel="stylesheet">
+<?php
+
+echo $this->Html->css('/css/bootstrap-cerulean.min.css');
+echo $this->Html->css('/css/charisma-app.css');
+echo $this->Html->css('/bower_components/fullcalendar/dist/fullcalendar.css');
+echo $this->Html->css('/bower_components/fullcalendar/dist/fullcalendar.print.css');
+echo $this->Html->css('/bower_components/chosen/chosen.min.css');
+echo $this->Html->css('/bower_components/colorbox/example3/colorbox.css');
+echo $this->Html->css('/bower_components/responsive-tables/responsive-tables.css');
+echo $this->Html->css('/css/jquery.noty.css');
+echo $this->Html->css('/css/noty_theme_default.css');
+echo $this->Html->css('/css/elfinder.min.css');
+echo $this->Html->css('/css/elfinder.theme.css');
+echo $this->Html->css('/css/jquery.iphone.toggle.css');
+echo $this->Html->css('/css/uploadify.css');
+echo $this->Html->css('/css/animate.min.css');
+echo $this->Html->css('/custom/css/style.css');
+
+?>

@@ -5804,3 +5804,2782 @@ Stack Trace:
 #13 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
 #14 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #15 {main}
+2016-05-15 20:08:06 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:21:26 Error: Fatal Error (1): Call to a member function validates() on null in [/var/www/html/cakephp/admin/Controller/AdminsController.php, line 17]
+2016-05-15 23:21:26 Error: [FatalErrorException] Call to a member function validates() on null
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 17, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 17, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:26 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/jquery/jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.noty.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:21:27 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:35 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:35 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/jquery/jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.noty.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:24:36 Error: Fatal Error (1): Class 'User' not found in [/var/www/html/cakephp/admin/Controller/Component/UserComponent.php, line 11]
+2016-05-15 23:24:36 Error: [FatalErrorException] Class 'User' not found
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/var/www/html/c...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/var/www/html/c...', 11, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:28:00 Error: Fatal Error (1): Call to a member function auth() on null in [/var/www/html/cakephp/admin/Controller/AdminsController.php, line 25]
+2016-05-15 23:28:00 Error: [FatalErrorException] Call to a member function auth() on null
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 25, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 25, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-15 23:28:18 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:18 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:19 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/jquery/jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:20 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.noty.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:21 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:28:22 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:14 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:14 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:14 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:15 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/jquery/jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:16 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.noty.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:32:17 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:41 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/jquery/jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:42 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:43 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:44 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:44 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:44 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:36:44 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:08 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:08 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:08 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:08 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:08 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/moment/min/moment.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/fullcalendar/dist/fullcalendar.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.dataTables.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/chosen/chosen.jquery.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/colorbox/jquery.colorbox-min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.noty.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/responsive-tables/responsive-tables.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.raty.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.iphone.toggle.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.autogrow-textarea.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.history.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/charisma.js
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:45:09 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/responsive-tables/responsive-tables.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/colorbox/example3/colorbox.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/charisma-app.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/chosen/chosen.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:51 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.noty.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/jquery.iphone.toggle.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/uploadify.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/elfinder.theme.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/noty_theme_default.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::custom() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'custom',
+)
+Request URL: /admins/custom/css/style.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:45:52 Error: [MissingActionException] Action AdminsController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'bower_components',
+)
+Request URL: /admins/bower_components/fullcalendar/dist/fullcalendar.print.css
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-cerulean.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/charisma-app.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/colorbox/example3/colorbox.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/responsive-tables/responsive-tables.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20rel%3D%22stylesheet%22%20media%3D%22print.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.noty.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/noty_theme_default.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.theme.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.iphone.toggle.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/uploadify.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CustomController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomController',
+  'plugin' => NULL,
+)
+Request URL: /custom/css/style.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/animate.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:48 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/chosen/chosen.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/colorbox/example3/colorbox.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/chosen/chosen.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20rel%3D%22stylesheet%22%20media%3D%22print.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-cerulean.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/charisma-app.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/responsive-tables/responsive-tables.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.noty.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/noty_theme_default.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.theme.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.iphone.toggle.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/animate.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CustomController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomController',
+  'plugin' => NULL,
+)
+Request URL: /custom/css/style.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/uploadify.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/chosen/chosen.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20rel%3D%22stylesheet%22%20media%3D%22print.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-cerulean.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/colorbox/example3/colorbox.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/charisma-app.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/responsive-tables/responsive-tables.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.noty.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/noty_theme_default.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.iphone.toggle.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.theme.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/animate.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/uploadify.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:49:50 Error: [MissingControllerException] Controller class CustomController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomController',
+  'plugin' => NULL,
+)
+Request URL: /custom/css/style.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:00 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20rel%3D%22stylesheet%22%20media%3D%22print.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:00 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-cerulean.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/chosen/chosen.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/responsive-tables/responsive-tables.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/colorbox/example3/colorbox.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.noty.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/charisma-app.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/noty_theme_default.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/elfinder.theme.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery.iphone.toggle.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/animate.min.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CustomController could not be found.
+Exception Attributes: array (
+  'class' => 'CustomController',
+  'plugin' => NULL,
+)
+Request URL: /custom/css/style.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/uploadify.css%22%20rel%3D%22stylesheet.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-15 23:50:46 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20media%3D%22print.css
+Stack Trace:
+#0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

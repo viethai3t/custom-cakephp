@@ -1,39 +1,44 @@
-<?php
-//$this->Form->inputDefaults(array(
-//    'error' => false
-//));
-//    echo $this->Form->create(null, array(
-//        'url' => array('controller' => 'users', 'action' => 'login')
-//    ));
-//
-//    echo $this->Form->input('email', array('label' => 'メール'));
-//    echo $this->Form->input('password', array('label' => 'パスワード'));
-//    echo $this->Form->end('Login');
-?>
-
 <?php $this->assign('title', 'Intellex | ログイン'); ?>
 <div class="row">
 	<div class="col-md-12 center login-header"></div>
 </div>
 <div class="row">
 	<div class="well col-md-5 center login-box">
-		<form class="form-horizontal" action="login" method="post">
+		<?php
+		    echo $this->Form->create(null, array(
+		        'url' => array('controller' => 'admins', 'action' => 'login'),
+				'class' => 'form-horizontal'
+		    ));
+		?>
 			<fieldset>
 				<div class="input-group input-group-lg">
 					<span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
-					<input type="text" class="form-control" placeholder="メールアドレス" name="email" value="">
+					<?php echo $this->Form->input('email', array(
+						'type' => 'text',
+						'placeholder' => 'メールアドレス',
+						'class' => 'form-control',
+						'label' => false,
+						'div' => false
+					)); ?>
 				</div>
 				<div class="clearfix"></div><br>
 				<div class="input-group input-group-lg">
 					<span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
-					<input type="password" class="form-control" placeholder="パスワード" name="パスワード">
+					<?php echo $this->Form->input('password', array(
+						'type' => 'password',
+						'placeholder' => 'パスワード',
+						'class' => 'form-control',
+						'label' => false,
+						'div' => false
+					)); ?>
 				</div>
 				<div class="clearfix"></div>
 				<p class="center col-md-5">
-					<button type="submit" class="btn btn-primary">ログイン</button>
+					<?php
+						echo $this->Form->button('ログイン', array('type' => 'submit', 'class' => 'btn btn-primary'));
+					?>
 				</p>
 			</fieldset>
-		</form>
 	</div>
 	<!--/span-->
 </div><!--/row-->
