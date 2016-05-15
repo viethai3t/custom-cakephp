@@ -66,28 +66,28 @@
  */
 class DATABASE_CONFIG {
 
-	public $default = array(
-		'datasource' => 'Database/Postgres',
-		'persistent' => false,
-		'host' => '192.168.33.101',
-		'port' => '5432',
-		'login' => 'postgres',
-		'password' => '10010010',
-		'database' => 'cake',
-		'prefix' => '',
-		'encoding' => 'utf8'
-	);
-
 //	public $default = array(
-//		'datasource' => 'Database/Mysql',
+//		'datasource' => 'Database/Postgres',
 //		'persistent' => false,
 //		'host' => '192.168.33.101',
-//		'login' => 'root',
-//		'password' => 'changeme',
+//		'port' => '5432',
+//		'login' => 'postgres',
+//		'password' => '10010010',
 //		'database' => 'cake',
 //		'prefix' => '',
-//		'encoding' => 'utf8',
+//		'encoding' => 'utf8'
 //	);
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => '192.168.33.101',
+		'login' => 'root',
+		'password' => 'changeme',
+		'database' => 'cake',
+		'prefix' => '',
+		'encoding' => 'utf8',
+	);
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',

@@ -1,6 +1,6 @@
 <?php
 
-class UsersController extends AppController {
+class AdminsController extends AppController {
 
 	public $components = array(
 		'Session',

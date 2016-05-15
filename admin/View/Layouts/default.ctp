@@ -4,32 +4,34 @@
 
 	<meta charset="utf-8">
 	<title><?php echo $this->fetch('title'); ?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">)
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<?php echo $this->element('css'); ?>
-	@include("base/css")
-	@include("base/script")
+	<?php
+		echo $this->element('css');
+		echo $this->element('script');
+	?>
 
 </head>
 <body>
-@if(Session::get('messageContent') != null && Session::get('messageType') != null)
-<script type="text/javascript">
-	$(function() {
-		noty({text: '{{Session::get("messageContent")}}', layout: 'top', type: '{{Session::get("messageType")}}', timeout: 5000});
-	});
-</script>
-@endif
+<?php
+//	echo '<script type="text/javascript">
+//			$(function() {
+//				noty({text: '{{Session::get("messageContent")}}', layout: 'top', type: '{{Session::get("messageType")}}', timeout: 5000});
+//			});
+//		</script>';
+?>
 
-@include("base/header")
-@include("base/dialog")
+<?php echo $this->element('header'); ?>
+<?php //echo $this->element('dialog'); ?>
 <div class="ch-container">
 	<div class="row">
-		@if( !isset($page_type) || $page_type !== "login")
-		@include("base/menu")
-		@endif
-		@yield("content")
+<!--		@if( !isset($page_type) || $page_type !== "login")-->
+<!--		@include("base/menu")-->
+<!--		@endif-->
+<!--		@yield("content")-->
+		<?php echo $this->fetch('content'); ?>
 	</div>
 	<hr>
-	@include("base/footer")
+	<?php echo $this->element('footer'); ?>
 </div>
 </body>
