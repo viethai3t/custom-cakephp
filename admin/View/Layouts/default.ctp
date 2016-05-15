@@ -13,13 +13,20 @@
 
 </head>
 <body>
-<?php
-//	echo '<script type="text/javascript">
-//			$(function() {
-//				noty({text: '{{Session::get("messageContent")}}', layout: 'top', type: '{{Session::get("messageType")}}', timeout: 5000});
-//			});
-//		</script>';
-?>
+
+<?php if($this->Session->read('msgContent') && $this->Session->read('msgType')): ?>
+	<script type="text/javascript">
+		$(function() {
+			noty({text: '<?php echo $this->Session->read('msgContent'); ?>', layout: 'top', type: '<?php echo $this->Session->read('msgType'); ?>', timeout: 4000});
+		});
+	</script>
+	<?php
+	var_dump($this->Session->read('msgContent'));
+		$this->Session->delete('msgContent');
+		$this->Session->delete('msgType');
+	var_dump($this->Session->read('msgContent'));
+	?>
+<?php endif; ?>
 
 <?php echo $this->element('header'); ?>
 <?php //echo $this->element('dialog'); ?>

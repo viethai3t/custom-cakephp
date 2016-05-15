@@ -18,7 +18,10 @@
 						'placeholder' => 'メールアドレス',
 						'class' => 'form-control',
 						'label' => false,
-						'div' => false
+						'div' => false,
+						'error' => array(
+							'attributes' => array('class' => 'alert-danger')
+						)
 					)); ?>
 				</div>
 				<div class="clearfix"></div><br>
@@ -29,7 +32,10 @@
 						'placeholder' => 'パスワード',
 						'class' => 'form-control',
 						'label' => false,
-						'div' => false
+						'div' => false,
+						'error' => array(
+							'attributes' => array('class' => 'alert-danger')
+						)
 					)); ?>
 				</div>
 				<div class="clearfix"></div>

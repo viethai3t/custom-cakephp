@@ -13,17 +13,18 @@ class AdminsController extends AppController {
 	}
 
 	public function login() {
-
-
-		$valid = $this->Admin->validates();
-		if ($valid) {
-
-		} else {
-			$errors = $this->Admin->validationErrors;
+		if (!$this->request->is('post')){
+			throw new NotFoundException('404');
 		}
-		$input = $this->request->data;
-		$admin = $this->adminComponent->auth($input['Admin']);
-		if (!empty($admin)) {
+		$this->Admin->set($this->data);
+		$isValidInput = $this->Admin->validates();
+		if ($isValidInput) {
+			$input = $this->request->data;
+			$admin = $this->adminComponent->auth($input['Admin']);
+			if (empty($admin)) {
+				$this->Flash->set('ログインに失敗しました。', ['key' => 'msgContent']);
+				$this->Flash->set('error', ['key' => 'msgType']);
+			}
 		}
 	}
 }

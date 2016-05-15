@@ -8583,3 +8583,139 @@ Request URL: /bower_components/fullcalendar/dist/fullcalendar.print.css%22%20med
 Stack Trace:
 #0 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-05-16 00:10:41 Error: Fatal Error (4): syntax error, unexpected => (T_DOUBLE_ARROW) in [xdebug://debug-eval, line 1]
+2016-05-16 00:10:41 Error: [FatalErrorException] syntax error, unexpected => (T_DOUBLE_ARROW)
+Request URL: /admins/login
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'xdebug://debug-...', 1, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 00:43:33 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 00:43:47 Error: [NotFoundException] 404dsds
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:12:59 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:15:54 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:17:17 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:17:52 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:21:21 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:22:35 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:23:06 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:23:11 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:25:31 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:26:23 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:26:38 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 01:27:04 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
