@@ -12,7 +12,8 @@ class AdminComponent extends Component {
     }
 
     public function auth($input) {
-        $admin = $this->adminModel->findByEmailAndPassword($input['email'], $input['password']);
+        $password = sha1($input['password']);
+        $admin = $this->adminModel->findByEmailAndPassword($input['email'], $password);
         return $admin;
     }
 }
