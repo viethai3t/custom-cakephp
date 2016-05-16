@@ -8719,3 +8719,154 @@ Stack Trace:
 #3 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
 #4 /var/www/html/cakephp/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-05-16 10:23:07 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 11:25:34 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 11:25:55 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 11:26:06 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 12:11:27 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 12:11:43 Error: [NotFoundException] 404
+Request URL: /admins/login
+Stack Trace:
+#0 [internal function]: AdminsController->login()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 12:21:35 Error: [MissingControllerException] Controller class Email=adsds@gmail.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Email=adsds@gmail.comController',
+  'plugin' => NULL,
+)
+Request URL: /email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-16 12:21:56 Error: [MissingActionException] Action AdminsController::email=adsds@gmail.com() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'email=adsds@gmail.com',
+)
+Request URL: /admins/email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-16 12:26:04 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-16 12:26:59 Error: [MissingActionException] Action AdminsController::email=adsds@gmail.com() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'email=adsds@gmail.com',
+)
+Request URL: /admins/email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-16 12:27:59 Error: [MissingControllerException] Controller class Email=adsds@gmail.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Email=adsds@gmail.comController',
+  'plugin' => NULL,
+)
+Request URL: /email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-16 12:32:10 Error: [MissingControllerException] Controller class Email=adsds@gmail.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Email=adsds@gmail.comController',
+  'plugin' => NULL,
+)
+Request URL: /email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-16 13:02:45 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/html/intellex/admin/View/Admins/login.ctp, line 19]
+2016-05-16 13:02:45 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /admins/login?email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/i...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/i...', 19, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/i...', 19, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 13:03:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [/var/www/html/intellex/admin/View/Admins/login.ctp, line 19]
+2016-05-16 13:03:16 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /admins/login?email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/i...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/i...', 19, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/i...', 19, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 13:03:33 Error: Fatal Error (1): Class 'CommonHelper' not found in [/var/www/html/intellex/admin/View/Helper/AdminHelper.php, line 3]
+2016-05-16 13:03:33 Error: [FatalErrorException] Class 'CommonHelper' not found
+Request URL: /admins/login?email=adsds%40gmail.com
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'CommonHe...', '/var/www/html/i...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CommonHe...', '/var/www/html/i...', 3, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'CommonHe...', '/var/www/html/i...', 3, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 14:15:56 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/
+Stack Trace:
+#0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

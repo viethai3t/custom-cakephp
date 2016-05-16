@@ -8,11 +8,11 @@ class AdminsController extends AppController {
 	);
 	public $helpers = array('Html', 'Form');
 
-	public function index() {
+	public function login() {
 		$this->render('login');
 	}
 
-	public function login() {
+	public function authAdmin() {
 		if (!$this->request->is('post')){
 			throw new NotFoundException('404');
 		}
@@ -22,8 +22,12 @@ class AdminsController extends AppController {
 			$input = $this->request->data;
 			$admin = $this->adminComponent->auth($input['Admin']);
 			if (empty($admin)) {
-				$this->Flash->set('ログインに失敗しました。', ['key' => 'msgContent']);
-				$this->Flash->set('error', ['key' => 'msgType']);
+				$this->setReturningMessage('error', 'ログインに失敗しました。');
+				unset($input['Admin']['password']);
+				$this->redirect(array(
+						'action' => 'login',
+						'?' => $input['Admin']
+				));
 			}
 		}
 	}

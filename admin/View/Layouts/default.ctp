@@ -14,17 +14,13 @@
 </head>
 <body>
 
-<?php if($this->Session->read('msgContent') && $this->Session->read('msgType')): ?>
+<?php if(!empty($msgContent) && !empty($msgType)): ?>
 	<script type="text/javascript">
 		$(function() {
-			noty({text: '<?php echo $this->Session->read('msgContent'); ?>', layout: 'top', type: '<?php echo $this->Session->read('msgType'); ?>', timeout: 4000});
+			noty({text: '<?php echo $msgContent; ?>', layout: 'top', type: '<?php echo $msgType; ?>', timeout: 3000});
 		});
 	</script>
 	<?php
-	var_dump($this->Session->read('msgContent'));
-		$this->Session->delete('msgContent');
-		$this->Session->delete('msgType');
-	var_dump($this->Session->read('msgContent'));
 	?>
 <?php endif; ?>
 

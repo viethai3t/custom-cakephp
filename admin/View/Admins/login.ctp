@@ -6,7 +6,7 @@
 	<div class="well col-md-5 center login-box">
 		<?php
 		    echo $this->Form->create(null, array(
-		        'url' => array('controller' => 'admins', 'action' => 'login'),
+		        'url' => array('controller' => 'admins', 'action' => 'authAdmin'),
 				'class' => 'form-horizontal'
 		    ));
 		?>
@@ -15,6 +15,7 @@
 					<span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
 					<?php echo $this->Form->input('email', array(
 						'type' => 'text',
+						'default' => $this->Admin->getUrlParam('email'),
 						'placeholder' => 'メールアドレス',
 						'class' => 'form-control',
 						'label' => false,
@@ -40,9 +41,7 @@
 				</div>
 				<div class="clearfix"></div>
 				<p class="center col-md-5">
-					<?php
-						echo $this->Form->button('ログイン', array('type' => 'submit', 'class' => 'btn btn-primary'));
-					?>
+					<?php echo $this->Form->button('ログイン', array('type' => 'submit', 'class' => 'btn btn-primary')); ?>
 				</p>
 			</fieldset>
 	</div>

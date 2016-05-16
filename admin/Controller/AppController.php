@@ -31,4 +31,26 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->handleMessageSessions($this->Session);
+    }
+
+    public function setReturningMessage($msgType, $msgContent) {
+        if (empty($msgType) || empty($msgContent)) return;
+        $this->Session->write('msgType', $msgType);
+        $this->Session->write('msgContent', $msgContent);
+    }
+
+    private function handleMessageSessions (SessionComponent $sessionComponent) {
+        $msgType = $sessionComponent->read('msgType');
+        $msgContent = $sessionComponent->read('msgContent');
+        if (!empty($msgType) && !empty($msgContent)) {
+            $this->set('msgType', $msgType);
+            $this->set('msgContent', $msgContent);
+            $this->Session->delete('msgType');
+            $this->Session->delete('msgContent');
+        }
+    }
 }
