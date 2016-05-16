@@ -18,6 +18,7 @@
                 </button>
                 <ul class="dropdown-menu">
                     <li class="divider"></li>
+                    <li><a href="/admins/logout">ログアウト</a></li>
                 </ul>
             </div>
         <?php endif; ?>

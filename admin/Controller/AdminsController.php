@@ -36,7 +36,13 @@ class AdminsController extends AppController {
 			}
 
 		}
-
 		$this->render('login');
+	}
+
+	public function logout() {
+		if ($this->Session->check(Configure::read('acc_session'))) {
+			$this->Session->destroy();
+		}
+		$this->redirect('/');
 	}
 }
