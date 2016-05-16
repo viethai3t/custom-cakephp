@@ -7,7 +7,6 @@ class AdminsController extends AppController {
 		'adminComponent' => array('className' => 'Admin')
 	);
 	public $helpers = array('Html', 'Form');
-	public $scaffold;
 
 	public function login() {
 		$this->render('login');
