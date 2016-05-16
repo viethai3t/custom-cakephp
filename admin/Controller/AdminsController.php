@@ -7,6 +7,7 @@ class AdminsController extends AppController {
 		'adminComponent' => array('className' => 'Admin')
 	);
 	public $helpers = array('Html', 'Form');
+	public $scaffold;
 
 	public function login() {
 		$this->render('login');
@@ -16,19 +17,26 @@ class AdminsController extends AppController {
 		if (!$this->request->is('post')){
 			throw new NotFoundException('404');
 		}
+
 		$this->Admin->set($this->data);
 		$isValidInput = $this->Admin->validates();
 		if ($isValidInput) {
 			$input = $this->request->data;
 			$admin = $this->adminComponent->auth($input['Admin']);
 			if (empty($admin)) {
-				$this->setReturningMessage('error', 'ログインに失敗しました。');
+				$this->setReturningMessage('error', Configure::read('msg')['auth_failed']);
 				unset($input['Admin']['password']);
 				$this->redirect(array(
 						'action' => 'login',
 						'?' => $input['Admin']
 				));
+			} else {
+				$this->Session->write(Configure::read('acc_session'), $admin['Admin']);
+				$this->redirect('');
 			}
+
 		}
+
+		$this->render('login');
 	}
 }

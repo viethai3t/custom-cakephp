@@ -21,14 +21,4 @@ class Admin extends AppModel {
             )
         )
     );
-
-    public function findByEmailAndPassword($username, $password) {
-        return $this->find('first',
-            array('conditions' => array(
-                'email' => $username,
-                'password' => $password
-            )
-        ));
-    }
-
 }

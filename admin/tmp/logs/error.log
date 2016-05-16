@@ -8870,3 +8870,208 @@ Request URL: /users/
 Stack Trace:
 #0 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-05-16 14:23:14 Error: [MissingViewException] View file "Admins/auth_admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admins/auth_admin.ctp',
+)
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 14:23:43 Error: [MissingViewException] View file "Admins/auth_admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admins/auth_admin.ctp',
+)
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 14:24:51 Error: [MissingViewException] View file "Admins/auth_admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admins/auth_admin.ctp',
+)
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 14:26:15 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/var/www/html/intellex/admin/Controller/AdminsController.php, line 17]
+2016-05-16 14:26:15 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/i...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/i...', 17, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/i...', 17, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 14:32:08 Error: [MissingViewException] View file "Admins/auth_admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admins/auth_admin.ctp',
+)
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 14:54:33 Error: [ConfigureException] Could not load configuration file: /var/www/html/intellex/admin/Config/message.php
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Core/Configure.php(329): PhpReader->read('message.php')
+#1 /var/www/html/intellex/admin/Config/bootstrap.php(114): Configure::load('message.php')
+#2 /var/www/html/intellex/lib/Cake/Core/Configure.php(98): include('/var/www/html/i...')
+#3 /var/www/html/intellex/lib/Cake/bootstrap.php(431): Configure::bootstrap(true)
+#4 /var/www/html/intellex/admin/webroot/index.php(95): include('/var/www/html/i...')
+#5 {main}
+2016-05-16 14:59:00 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 14:59:26 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:09:44 Error: Fatal Error (1): Call to a member function check() on null in [/var/www/html/intellex/admin/View/Helper/CommonHelper.php, line 23]
+2016-05-16 15:09:44 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/i...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 15:09:56 Error: Fatal Error (1): Call to a member function check() on null in [/var/www/html/intellex/admin/View/Helper/CommonHelper.php, line 23]
+2016-05-16 15:09:56 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/i...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 15:10:34 Error: Fatal Error (1): Call to a member function read() on null in [/var/www/html/intellex/admin/View/Helper/CommonHelper.php, line 23]
+2016-05-16 15:10:34 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/i...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/i...', 23, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 15:11:16 Error: Fatal Error (1): Call to a member function read() on null in [/var/www/html/intellex/admin/View/Helper/CommonHelper.php, line 24]
+2016-05-16 15:11:16 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/intellex/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/i...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/i...', 24, Array)
+#2 /var/www/html/intellex/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/i...', 24, Array)
+#3 /var/www/html/intellex/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-05-16 15:18:12 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:20:18 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:20:33 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:20:35 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:21:03 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:21:57 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:22:00 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:22:03 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-05-16 15:22:10 Error: [NotFoundException] 404
+Request URL: /admins/authAdmin
+Stack Trace:
+#0 [internal function]: AdminsController->authAdmin()
+#1 /var/www/html/intellex/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#2 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/intellex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#4 /var/www/html/intellex/admin/webroot/index.php(116): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
