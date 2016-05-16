@@ -34,7 +34,6 @@ class AdminsController extends AppController {
 				$this->Session->write(Configure::read('acc_session'), $admin['Admin']);
 				$this->redirect('');
 			}
-
 		}
 		$this->render('login');
 	}
