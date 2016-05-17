@@ -4,6 +4,11 @@
 </div>
 <div class="row">
 	<div class="well col-md-5 center login-box">
+		<?php if($this->Form->isFieldError('Admin.email')): ?>
+			<div class="alert alert-danger">
+				<?php echo $this->Form->error('Admin.email'); ?>
+			</div>
+		<?php endif; ?>
 		<?php
 		    echo $this->Form->create(null, array(
 		        'url' => array('controller' => 'admins', 'action' => 'authAdmin'),
@@ -20,9 +25,7 @@
 						'class' => 'form-control',
 						'label' => false,
 						'div' => false,
-						'error' => array(
-							'attributes' => array('class' => 'alert-danger')
-						)
+						'error' => false
 					)); ?>
 				</div>
 				<div class="clearfix"></div><br>
